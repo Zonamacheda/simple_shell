@@ -96,12 +96,12 @@ typedef struct passinfo
 #define INFO_INT \
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
 	0, 0, 0}
-
 /**
  * struct builtin - contains a builtin string and related function
  * @type: the builtin command flag
- * @func: the function 
+ * @func: the function
  */
+
 typedef struct builtin
 {
 	char *type;

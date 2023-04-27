@@ -45,7 +45,7 @@ int _eputchar(char c)
 /**
  * _putfd - writes the character c to given fd
  * @c: The character to print
- * @fd: The filedescription to write to
+ * @fd: The file description to write to
  *
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately
